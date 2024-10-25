@@ -3,6 +3,9 @@
 ## Overview
 This project outlines the database schema for the **ZenClass Portal**, which manages **users**, **classes**, **tasks**, **queries**, and **events**. The system allows candidates and mentors to interact, assign tasks, resolve queries, and participate in events. The schema utilizes simple relationships and many-to-many linking tables to ensure data flexibility.
 
+## ER Diagram
+![Database ER Diagram](Database-ER-Diagram.png)
+
 ## Entities and Attributes
 
 ### 1. Users
@@ -92,6 +95,5 @@ This table links **Users** and **Events** to register users for events.
 - **Users ↔ Queries**: Users can create or resolve multiple queries, and queries can involve multiple users.
 - **Users ↔ Events**: Users can participate in multiple events, and events can have multiple participants.
 
-## ER Diagram
-![Database ER Diagram](Database-ER-Diagram.png)
+
 
